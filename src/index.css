@@ -1,0 +1,14 @@
+@tailwind components;
+@tailwind base;
+@tailwind utilities;
+
+@layer utilities {
+    .main-gradient {
+        background: linear-gradient(
+            to right,
+            #cc4fa4 0%,
+            #865bbc 50%,
+            #4698df 100%
+        );
+    }
+}
