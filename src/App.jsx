@@ -1,8 +1,11 @@
+import Header from "./layout/header";
+
 function App() {
     return (
         <>
             <div>
-                <h1>Hello World</h1>
+                {/* header */}
+                <Header />
             </div>
         </>
     );
